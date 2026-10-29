@@ -36,5 +36,4 @@ app.listen(port, () => {
 // Then, start the API server with:
 //   node app.js
 //
-// triggrd cicd
 // Trigger CI/CD pipeline...
