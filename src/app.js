@@ -7,6 +7,9 @@ app.use(bodyParser.json());
 app.use(cors());
 
 let grades = [];
+app.get('/', (req, res) => {
+  res.status(200).send('OK');
+});
 
 app.get('/grades', (req, res) => {
   console.log('Received GET request for grades');
